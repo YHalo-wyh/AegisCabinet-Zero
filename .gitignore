@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Streamlit and local secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Course reports, presentations, and generated presentation assets
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+*期末报告*
+*汇报PPT*
+AegisCabinetZero_FinalReport_ppt169_20260616/
+report_assets/
+tools/
+新建 文本文档.txt
+
+# Third-party source repositories kept only as local UI references
+magicui-reference/
+motion-reference/
+react-bits-reference/
